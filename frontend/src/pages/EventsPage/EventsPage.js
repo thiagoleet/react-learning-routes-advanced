@@ -5,6 +5,9 @@ const EventsPage = () => {
   const data = useLoaderData();
   const events = data.events;
 
+  if (data.isError) {
+    return <p>{data.message}</p>;
+  }
   return <EventsList events={events} />;
 };
 

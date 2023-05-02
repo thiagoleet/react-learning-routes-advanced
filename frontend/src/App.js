@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import {
   EditEventPage,
+  ErrorPage,
   EventDetailPage,
   EventsPage,
   EventsRootLayout,
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       {
