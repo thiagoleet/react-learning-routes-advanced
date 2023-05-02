@@ -6,8 +6,7 @@ const eventsLoader = async () => {
   if (!response.ok) {
     // TODO: incorrect response
   } else {
-    const resData = await response.json();
-    return resData.events;
+    return response;
   }
 };
 
