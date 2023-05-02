@@ -1,5 +1,7 @@
+import { EventForm } from "../../components";
+
 const NewEventPage = () => {
-  return <h1>NewEventPage</h1>;
+  return <EventForm />;
 };
 
 export default NewEventPage;

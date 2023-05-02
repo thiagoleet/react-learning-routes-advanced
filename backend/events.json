@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"test","image":"https://www.gl-events.com/sites/default/files/styles/hero_background_image/public/2019-03/sao_paulo_expo_venues_hero_0.jpg?itok=SwoGc3MD","date":"2023-05-03","description":"Another amazing event","id":"dd189d7e-edaa-40b8-915e-c7be5f32a276"},{"title":"A new Event","image":"https://venues.be/wp-content/uploads/2021/03/20131218_renault_290-920x798.jpg","date":"2023-05-02","description":"Some awesome event!","id":"8b2725fb-32c6-4f25-a08a-dae3f819e93b"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
