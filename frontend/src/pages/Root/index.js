@@ -1,3 +1,3 @@
-import Root from "./Root";
+import RootLayout from "./Root";
 
-export { Root };
+export { RootLayout };
