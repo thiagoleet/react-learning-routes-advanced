@@ -11,9 +11,10 @@ import {
   RootLayout,
   eventsLoader,
   eventLoader,
-  newEventAction,
   deleteEventAction,
 } from "./pages";
+
+import { manipulateEventAction } from "./components";
 
 const router = createBrowserRouter([
   {
@@ -39,12 +40,20 @@ const router = createBrowserRouter([
               {
                 index: true,
                 element: <EventDetailPage />,
-                action: deleteEventAction
+                action: deleteEventAction,
               },
-              { path: "edit", element: <EditEventPage /> },
+              {
+                path: "edit",
+                element: <EditEventPage />,
+                action: manipulateEventAction,
+              },
             ],
           },
-          { path: "new", element: <NewEventPage />, action: newEventAction },
+          {
+            path: "new",
+            element: <NewEventPage />,
+            action: manipulateEventAction,
+          },
         ],
       },
     ],
